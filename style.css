@@ -1,0 +1,73 @@
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+.container{
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgba(33, 32, 32, 0.649);
+    padding: 70px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.logo > img{
+    max-width: 300px;
+    max-height: 200px;
+}
+
+header{
+    text-align: center;
+    color: lime;
+}
+
+.contenitorepulsanti{
+    position: relative;
+    background-color: lime;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.pulsanti{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.testo{
+    margin-top: 20px;
+    color: white;
+}
+
+
+.caricagialla{
+    background-color: rgb(228, 139, 57);
+    width: 340px;
+    height: 30px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.caricaverde{
+    background-color: rgb(74, 192, 74);
+    width: 550px;
+    height: 30px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.caricarossa{
+    background-color: rgb(138, 56, 56);
+    width: 200px;
+    height: 30px;
+    border-radius: 10px 10px 10px 10px;
+}
+
